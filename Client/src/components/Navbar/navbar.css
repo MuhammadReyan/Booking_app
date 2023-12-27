@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #003580;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.navContainer {
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.navButton{
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #003580;
+    border-radius: 4px;
+  }
+
+  .navButton:hover{
+    background-color: #003580;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+  }
+
+
+  .username {
+    font-size: 16px;
+    padding: 5px;
+  }
